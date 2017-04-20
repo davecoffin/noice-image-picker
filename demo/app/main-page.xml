@@ -1,6 +1,6 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" class="page">
     <StackLayout class="p-20">
         <Label text="Hi Eddy." class="t-20 text-center c-black" textWrap="true"/>
-        <Button text="Do Something" tap="{{doSomething}}"></Button>
+        <Button text="Pick image(s)" tap="{{ pickImages }}"></Button>
     </StackLayout>
 </Page>
