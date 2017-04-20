@@ -19,8 +19,7 @@
     "test.ios.device": "cd demo && tns test ios",
     "test.android": "cd demo && tns test android",
     "preparedemo": "npm run build && cd demo && tns plugin remove nativescript-noice-image-picker && tns plugin add .. && tns install",
-    "setup": "npm i && cd demo && npm i && cd .. && npm run build && cd demo && tns plugin add .. && cd ..",
-    "postclone": "npm i && node scripts/postclone.js"
+    "setup": "npm i && cd demo && npm i && cd .. && npm run build && cd demo && tns plugin add .. && cd .."
   },
   "repository": {
     "type": "git",
@@ -33,9 +32,15 @@
     "iOS"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "youremail@yourdomain.com"
+    "name": "Dave Coffin",
+    "email": "dave@davecoffin.com"
   },
+  "contributors": [
+    {
+      "name": "Eddy Verbruggen",
+      "email": "eddyverbruggen@gmail.com"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/davecoffin/nativescript-noice-image-picker/issues"
   },

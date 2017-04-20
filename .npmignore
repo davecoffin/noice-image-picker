@@ -1,7 +1,5 @@
 demo/
 screenshots/
-*.gif
-*.png
 *.log
 *.map
 *.ts

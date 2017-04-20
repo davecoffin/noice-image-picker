@@ -1,5 +1,4 @@
-import { Common } from './noice-image-picker.common';
+import { Common } from "./noice-image-picker.common";
 export declare class NoiceImagePicker extends Common {
-    constructor();
     showPicker(): void;
 }
